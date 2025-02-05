@@ -229,8 +229,8 @@ header {
 
 .social-icon ul {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .social-icon ul li {
   list-style: none;

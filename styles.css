@@ -440,11 +440,8 @@ textarea {
   color: #555;
 }
 .chef:hover {
-  background-color: #ff7f00;
   transform: translateY(10px);
   transition: 0.4s;
-  color: #fff;
-  border: 1px solid rgba(10, 35, 59, 0.8);
 }
 .chef img:hover {
   border: 3px solid #0096c7;
@@ -452,16 +449,24 @@ textarea {
 
 .chef ul {
   display: flex;
-  justify-content: space-around;
-  margin-right: 40px;
+  justify-content: center;
+  margin-right: 43px;
+  align-items: center;
+}
+
+.chef ul li {
+  margin: 25px;
 }
 .chef i {
-  border-radius: 50%;
+  font-size: 1rem;
   position: absolute;
-  bottom: -6%;
   display: none;
   padding: 10px;
-  background-color: #555;
+  width: 40px;
+  height: 40px;
+  border-radius: 50% 50% 0 0;
+  bottom: -0px;
+  background-color: #ff7f00;
 }
 .chef i:hover {
   background-color: rgba(10, 35, 59, 0.8);

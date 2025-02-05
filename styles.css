@@ -449,6 +449,28 @@ textarea {
 .chef img:hover {
   border: 3px solid #0096c7;
 }
+
+.chef ul {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+.chef i {
+  border-radius: 50%;
+  position: absolute;
+  bottom: -6%;
+  display: none;
+  padding: 10px;
+  background-color: #555;
+}
+.chef i:hover {
+  background-color: rgba(10, 35, 59, 0.8);
+  transition: 0.5s all linear;
+}
+.chef:hover i {
+  transition: 0.2s all linear;
+  display: block;
+}
 /* ...................................... */
 /* client section */
 

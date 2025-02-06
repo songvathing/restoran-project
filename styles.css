@@ -26,14 +26,7 @@ header {
   left: 0;
   z-index: 2;
   position: fixed;
-<<<<<<< HEAD
-  padding: 15px 15%;
-=======
-  padding: 15px 5%;
->>>>>>> main
-  background-color: rgba(10, 35, 59, 0.8);
 }
-
 #logo {
   color: #ff7f00;
   font-weight: bold;

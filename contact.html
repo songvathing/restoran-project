@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Register</title>
-    <link rel="stylesheet" href="/css/register.css" />
+    <title>About</title>
+    <link rel="stylesheet" href="/css/contact.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,6 @@
       crossorigin="anonymous"
     ></script>
   </head>
-
   <body>
     <header>
       <a href="#home" id="logo">
@@ -32,28 +31,56 @@
         <li><a href="/register.html">REGISTER</a></li>
       </ul>
     </header>
-    <!-- ....................................... -->
-    <!-- login section -->
+    <!-- ................................. -->
+    <!-- contact home  -->
 
-    <div id="register-home">
-      <p class="register">Register</p>
-      <ul class="home-page-register">
+    <div id="contact">
+      <p class="contact">Contact Us</p>
+      <ul class="home-page-contact">
         <li class="active"><a href="/index.html">HOME</a></li>
         <li class="active"><a href="/index.html">/PAGE</a></li>
-        <li><a href="#register">/LOGIN</a></li>
+        <li><a href="#contact">/CONTACT</a></li>
       </ul>
     </div>
 
-    <div id="register">
-      <div class="title-group">Register ---</div>
-      <h2>Register for a new user</h2>
-      <input type="text" placeholder="Username" />
-      <input type="email" placeholder="Your Email" />
-      <input type="password" placeholder="Password" />
-      <button>REGISTER</button>
+    <!-- ......................................... -->
+    <!-- contact section -->
+    <div class="title-group">
+      <p class="title">-- Contact --</p>
+      <h1>Contact For Any Query</h1>
     </div>
 
-    <!-- ............................................... -->
+    <div class="contact-info">
+      <div>
+        <p>Booking ---</p>
+        <span>📧 book@example.com</span>
+      </div>
+      <div>
+        <p>General ---</p>
+        <span>📧 info@example.com</span>
+      </div>
+      <div>
+        <p>Technical ---</p>
+        <span>📧 tech@example.com</span>
+      </div>
+    </div>
+
+    <div id="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15603.486117946693!2d104.89216679999999!3d11.5563739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109511b1bca9339%3A0x1e3f5d3f6b5e94f1!2sPhnom%20Penh%2C%20Cambodia!5e0!3m2!1sen!2sus!4v1640989267784"
+        loading="lazy"
+      ></iframe>
+
+      <div class="contact-form">
+        <input type="text" placeholder="Your Name" />
+        <input type="email" placeholder="Your Email" />
+        <input type="text" class="subject" placeholder="Subject" />
+        <textarea placeholder="Message"></textarea>
+        <button class="sent-sms">SEND MESSAGE</button>
+      </div>
+    </div>
+
+    <!-- ................................................. -->
     <!-- footer section -->
 
     <footer class="footer">
@@ -117,7 +144,6 @@
         </div>
       </div>
     </footer>
-
     <!-- ................................. -->
     <!-- copyright -->
     <div id="copyright">

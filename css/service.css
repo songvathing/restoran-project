@@ -24,8 +24,40 @@ header {
   left: 0;
   z-index: 2;
   position: fixed;
-  padding: 15px 5%;
+  padding: 20px 5%;
   background-color: rgba(10, 35, 59, 0.8);
+}
+
+#logo {
+  color: #ff7f00;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#navbar .home-active {
+  color: #ff7f00;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+#navbar {
+  display: flex;
+}
+
+#navbar a {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 10px;
+  font-weight: 600;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+#navbar a:hover {
+  color: #ff7f00;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: all 0.4s;
 }
 
 #service {
@@ -77,29 +109,6 @@ header {
 
 .service {
   font-size: 50px;
-}
-
-#logo {
-  color: #ff7f00;
-  font-weight: bold;
-}
-
-#navbar .home-active {
-  color: #ff7f00;
-}
-#navbar {
-  display: flex;
-}
-#navbar a {
-  font-size: 1rem;
-  padding: 10px 20px;
-  font-weight: 600;
-  color: #fff;
-  transition: all 0.3s;
-}
-
-#navbar a:hover {
-  color: #ff7f00;
 }
 
 /* end service section */

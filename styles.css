@@ -486,52 +486,33 @@ textarea {
   gap: 2rem;
 }
 
-.client-1 {
+.client {
+  font-size: 1rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #000;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 9rem;
-  padding: 1.5rem;
+  cursor: pointer;
 }
 
-.client-2 {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 15.5rem;
-  padding: 1.5rem;
-}
-
-.client-3 {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 12rem;
-  padding: 1.5rem;
-}
-.client-2 h2,
-.client-3 h2,
-.client-1 h2 {
+.client h2 {
   margin-top: 10px;
   margin-left: 10px;
 }
-.client-1 h1,
-.client-2 h1,
-.client-3 h1 {
+.client h1 {
   margin-bottom: 10px;
   font-size: 2rem;
 }
-.client-1 span,
-.client-2 span,
-.client-3 span {
+.client span {
   margin-left: 10px;
   color: #555;
 }
-.client-2 p,
-.client-3 p {
+.client p {
   color: #555;
 }
 
-.client-1:hover,
-.client-2:hover,
-.client-3:hover {
+.client:hover {
   background-color: #ff7f00;
   transform: translateY(-10px);
   transition: 0.4s;

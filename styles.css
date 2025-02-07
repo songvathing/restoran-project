@@ -9,7 +9,7 @@
   font-style: normal;
 }
 body {
-  padding: 0 10%;
+  padding: 0 5%;
 }
 
 header a {
@@ -20,30 +20,36 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
-  margin: auto 10%;
+  width: 90%;
+  margin: auto 5%;
   top: 0;
   left: 0;
   z-index: 2;
   position: fixed;
-  padding: 15px 5%;
+  padding: 20px 5%;
   background-color: rgba(10, 35, 59, 0.8);
 }
 
 #logo {
   color: #ff7f00;
   font-weight: bold;
+  font-size: 1.5rem;
 }
 
 #navbar .home-active {
   color: #ff7f00;
+  background-color: #fff;
+  border-radius: 20px;
 }
+
 #navbar {
   display: flex;
 }
+
 #navbar a {
   font-size: 1rem;
   padding: 10px 20px;
+  margin: 10px;
   font-weight: 600;
   color: #fff;
   transition: all 0.3s;
@@ -51,7 +57,11 @@ header {
 
 #navbar a:hover {
   color: #ff7f00;
+  background-color: #fff;
+  border-radius: 20px;
+  transition: all 0.4s;
 }
+
 #home {
   width: 100%;
   min-height: 100vh;
@@ -79,15 +89,17 @@ header {
 .home-text {
   z-index: 1;
   color: #fff;
+  font-size: 1.3rem;
 }
+
 .home-text h1 {
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
 }
 .hero {
   z-index: 1;
-  width: 37rem;
-  height: 37rem;
+  width: 42rem;
+  height: 42rem;
   animation: rotateHero 8s linear infinite;
 }
 
@@ -101,12 +113,14 @@ header {
 }
 /* Button */
 #home .btn {
-  padding: 1rem 3rem;
+  padding: 1.2rem 3.5rem;
+  font-size: 1.3rem;
   background-color: #ff7f00;
   color: #fff;
   font-weight: 600;
   border-radius: 0;
-  margin-top: 1rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
 }
 #home .btn:hover {
   background-color: #fff;
@@ -279,7 +293,7 @@ header {
 .menu-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  gap: 6rem;
 }
 
 .menu-item {
@@ -289,15 +303,15 @@ header {
 }
 
 .menu-item img {
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   border-radius: 4px;
 }
 .menu-name {
   font-weight: bold;
   margin: 0;
   border-bottom: 1px solid #ced4da;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 .price {
   color: #ff7f00;
@@ -305,9 +319,11 @@ header {
   font-weight: bold;
 }
 .description {
-  font-size: 1rem;
+  font-size: 1.3rem;
   color: #555;
   font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .view-button {
@@ -315,7 +331,7 @@ header {
   color: #fff;
   border: none;
   width: 100%;
-  height: 2rem;
+  height: 3rem;
   font-size: 1rem;
   cursor: pointer;
   border-radius: 5px;
@@ -330,9 +346,10 @@ header {
 .reser-container {
   display: flex;
   width: 100%;
+  height: 30rem;
   justify-content: center;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
-  margin-top: 5rem;
+  margin-top: 11rem;
 }
 
 .image-section {
@@ -390,8 +407,7 @@ header {
 }
 
 .form-group input,
-.form-group select,
-textarea {
+.form-group select {
   width: 100%;
   padding: 12px;
   border: none;
@@ -400,13 +416,16 @@ textarea {
 }
 
 textarea {
-  resize: none;
-  height: 100px;
+  width: 100%;
+  height: 150px;
+  border-radius: 5px;
+  padding: 12px;
+  font-size: 14px;
 }
 
 .login-text {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 1rem;
 }
 /* .................................................... */
 /* member section */
@@ -477,8 +496,9 @@ textarea {
   display: block;
 }
 /* ...................................... */
-
 /* client section */
+/* hello world */
+/* hello */
 
 #client-section {
   display: grid;
@@ -486,52 +506,33 @@ textarea {
   gap: 2rem;
 }
 
-.client-1 {
+.client {
+  font-size: 1rem;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 1rem;
+  color: #000;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 9rem;
-  padding: 1.5rem;
+  cursor: pointer;
 }
 
-.client-2 {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 13.5rem;
-  padding: 1.5rem;
-}
-
-.client-3 {
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  width: 100%;
-  height: 12rem;
-  padding: 1.5rem;
-}
-.client-2 h2,
-.client-3 h2,
-.client-1 h2 {
+.client h2 {
   margin-top: 10px;
   margin-left: 10px;
 }
-.client-1 h1,
-.client-2 h1,
-.client-3 h1 {
+.client h1 {
   margin-bottom: 10px;
   font-size: 2rem;
 }
-.client-1 span,
-.client-2 span,
-.client-3 span {
+.client span {
   margin-left: 10px;
   color: #555;
 }
-.client-2 p,
-.client-3 p {
+.client p {
   color: #555;
 }
 
-.client-1:hover,
-.client-2:hover,
-.client-3:hover {
+.client:hover {
   background-color: #ff7f00;
   transform: translateY(-10px);
   transition: 0.4s;

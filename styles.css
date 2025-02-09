@@ -108,6 +108,7 @@ header {
   width: 42rem;
   height: 42rem;
   animation: rotateHero 8s linear infinite;
+  filter: drop-shadow(1px 1px 15px #ff7f00);
 }
 
 @keyframes rotateHero {
@@ -118,6 +119,7 @@ header {
     transform: rotate(360deg);
   }
 }
+
 /* Button */
 #home .btn {
   padding: 1.2rem 3.5rem;
@@ -472,7 +474,7 @@ textarea {
   color: #555;
 }
 .chef:hover {
-  transform: translateY(10px);
+  transform: translateY(7px);
   transition: 0.4s;
 }
 .chef img:hover {
@@ -508,10 +510,23 @@ textarea {
   transition: 0.2s all linear;
   display: block;
 }
+
+.chef:hover i {
+  animation: slideUp 0.9s forwards;
+}
+
+@keyframes slideUp {
+  0% {
+    bottom: -20px;
+    opacity: 0;
+  }
+  100% {
+    bottom: 2px;
+    opacity: 5;
+  }
+}
 /* ...................................... */
 /* client section */
-/* hello world */
-/* hello */
 
 #client-section {
   display: grid;
@@ -662,7 +677,248 @@ textarea {
   border-radius: 3px;
   cursor: pointer;
 }
-.arrowup:hover{
+.arrowup:hover {
   background-color: rgba(10, 35, 59, 0.8);
   transition: 0.5s;
+}
+
+/* responsive  */
+
+/* for desktop */
+
+@media only screen and (min-width: 769px) {
+  #logo img {
+    width: 35px;
+  }
+
+  header {
+    padding: 10px 5%;
+  }
+  .home-text {
+    font-size: 1rem;
+  }
+
+  .home-text h1 {
+    font-weight: bold;
+    font-size: 3rem;
+  }
+  .hero {
+    width: 37rem;
+    height: 37rem;
+  }
+  #home {
+    padding: 0 40px;
+  }
+
+  #home .btn {
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+  }
+
+  /* About Us */
+  .image-grid .about-1 {
+    width: 350px;
+  }
+  .image-grid .about-4 {
+    width: 350px;
+  }
+  .image-grid .about-2 {
+    margin-top: 5.4rem;
+    width: 75%;
+  }
+  .image-grid .about-3 {
+    margin-left: 5.4rem;
+    width: 75%;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .btn2 {
+    font-size: 1rem;
+  }
+  .arrowup {
+    right: 20px;
+    bottom: 40px;
+    padding: 10px;
+  }
+}
+/* hamburger */
+.hamburger {
+  display: none;
+}
+
+/* for tablet */
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger div {
+    color: #ff7f00;
+    font-size: 30px;
+  }
+  #navbar {
+    position: absolute;
+    top: 62px;
+    left: 0;
+    right: 0;
+    flex-direction: column;
+    background-color: rgba(10, 35, 59, 0.8);
+    text-align: center;
+  }
+  #navbar li {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  #navbar li a {
+    font-size: 13px;
+    padding: 5px;
+  }
+  #logo img {
+    width: 30px;
+  }
+  #logo h2 {
+    font-size: 34px;
+  }
+  header {
+    padding: 10px 5%;
+  }
+  .home-text p {
+    font-size: 14px;
+  }
+
+  .home-text h1 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .hero {
+    width: 18rem;
+    height: 18rem;
+  }
+  #home {
+    padding: 0 30px;
+    min-height: 70vh;
+  }
+
+  #home .btn {
+    padding: 1rem 2rem;
+    font-size: 10px;
+  }
+
+  /* About Us */
+  .container-about {
+    flex-direction: column-reverse;
+  }
+
+  .image-grid .about-1 {
+    width: 340px;
+  }
+  .image-grid .about-2 {
+    margin-top: 4.3rem;
+    width: 80%;
+  }
+  .image-grid .about-3 {
+    margin-left: 4.3rem;
+    width: 80%;
+  }
+  .image-grid .about-4 {
+    width: 340px;
+  }
+
+  .content p {
+    font-size: 1rem;
+  }
+  .btn2 {
+    font-size: 1rem;
+  }
+  .arrowup {
+    right: 20px;
+    bottom: 40px;
+    padding: 10px;
+  }
+
+  /* service  */
+  #services {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .services h2 {
+    font-size: 15px;
+  }
+  .services p {
+    font-size: 13px;
+  }
+  /* menu-container */
+  .menu-container {
+    gap: 2rem;
+  }
+  .description {
+    font-size: 13px;
+  }
+
+  /* reser container */
+  .reser-container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .image-section {
+    width: 100%;
+    height: 330px;
+  }
+
+  .play-button {
+    width: 50px;
+    height: 50px;
+  }
+
+  .form-section {
+    padding: 20px;
+    width: 100%;
+  }
+
+  /* member section */
+
+  #section-team-member {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .chef {
+    padding: 10px;
+  }
+  .chef img {
+    width: 80%;
+  }
+
+  /* client section */
+  #client-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .client p {
+    font-size: 13px;
+  }
+  .client h2 {
+    font-size: 15px;
+  }
+  .arrowup {
+    right: 5px;
+    bottom: 40px;
+    font-size: 12px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 1px;
+  }
+
+  .footer-item p {
+    font-size: 15px;
+  }
+  #copyright {
+    font-size: 10px;
+  }
 }

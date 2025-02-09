@@ -27,9 +27,17 @@ header {
 }
 
 #logo {
-  color: #ff7f00;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  align-items: center;
+  display: flex;
+}
+#logo img {
+  width: 50px;
+}
+
+#logo a {
+  color: #ff7f00;
 }
 
 #navbar .home-active {

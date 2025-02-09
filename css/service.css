@@ -7,7 +7,6 @@
   font-optical-sizing: auto;
   font-weight: bold;
   font-style: normal;
- 
 }
 
 header a {
@@ -29,9 +28,17 @@ header {
 }
 
 #logo {
-  color: #ff7f00;
   font-weight: bold;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
+  align-items: center;
+  display: flex;
+}
+#logo img {
+  width: 50px;
+}
+
+#logo a {
+  color: #ff7f00;
 }
 
 #navbar .home-active {
@@ -149,14 +156,18 @@ header {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
-.services h2 i {
-  font-size: 3rem;
-  margin-bottom: 5px;
-  color: #ff7f00;
+.services img {
+  margin-bottom: 10px;
+  width: 50px;
 }
 .services h2 {
   font-weight: bold;
   margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.services p {
+  font-size: 1.2rem;
 }
 
 .services:hover {

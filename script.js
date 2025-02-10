@@ -19,6 +19,6 @@ $(window).on("scroll", function () {
 
 $(document).ready(function () {
   $(".hamburger").click(function () {
-    $("#navbar").toggle(500);
+    $("#navbar").toggle(300);
   });
 });

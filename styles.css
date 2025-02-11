@@ -391,10 +391,9 @@ header {
 }
 
 .play-button::after {
-  content: "▶";
-  font-size: 30px;
-  color: #000;
-  font-weight: bold;
+  content: url(image/play.png);
+  margin-top: 5px;
+  width: 30px;
 }
 
 .form-section {
@@ -1141,7 +1140,6 @@ textarea {
 }
 
 @media only screen and (max-width: 850px) {
- 
   /* Hamburger Menu */
   .hamburger {
     display: block;

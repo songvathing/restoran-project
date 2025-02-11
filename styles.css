@@ -1305,6 +1305,7 @@ textarea {
     background-color: #0096c7;
   }
   #home {
+    padding: 15px;
     min-height: 50vh;
   }
   .hero {

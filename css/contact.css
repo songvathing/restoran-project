@@ -75,7 +75,7 @@ header {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  background-image: url("/image/bg-hero.jpg");
+  background-image: url("image/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -305,9 +305,6 @@ iframe {
 }
 /* responsive  */
 @media only screen and (max-width: 1460px) {
-  body {
-    background-color: #ff7f00;
-  }
   header {
     padding: 10px 2%;
   }
@@ -319,19 +316,12 @@ iframe {
 }
 
 @media only screen and (max-width: 1070px) {
-  body {
-    background-color: red;
-  }
-
   #navbar a {
     padding: 5px 10px;
     font-size: 13px;
   }
 }
 @media only screen and (max-width: 1010px) {
-  body {
-    background-color: blue;
-  }
   #navbar a {
     padding: 5px 10px;
     font-size: 13px;
@@ -345,9 +335,6 @@ iframe {
 }
 
 @media only screen and (max-width: 900px) {
-  body {
-    background-color: yellow;
-  }
   #logo {
     font-size: 19px;
   }
@@ -362,10 +349,6 @@ iframe {
 }
 
 @media only screen and (max-width: 850px) {
-  body {
-    background-color: greenyellow;
-  }
-
   /* Hamburger Menu */
   .hamburger {
     display: block;
@@ -414,9 +397,6 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-    background-color: turquoise;
-  }
   #contact-map {
     display: block;
   }

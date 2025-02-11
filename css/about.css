@@ -474,11 +474,9 @@ header {
   .chef img {
     width: 80%;
   }
- 
 }
 
 @media only screen and (max-width: 1070px) {
-
   #navbar a {
     padding: 5px 10px;
     font-size: 13px;
@@ -538,11 +536,8 @@ header {
   .chef img {
     width: 80%;
   }
-
-
 }
 @media only screen and (max-width: 1010px) {
-
   #navbar a {
     padding: 5px 10px;
     font-size: 13px;
@@ -553,7 +548,7 @@ header {
   #logo img {
     width: 37px;
   }
- 
+
   .container-about {
     padding: 5px;
     gap: 13px;
@@ -591,7 +586,7 @@ header {
   .stat p {
     font-size: 10px;
   }
- 
+
   /* member section */
 
   #section-team-member {
@@ -604,12 +599,9 @@ header {
   .chef img {
     width: 80%;
   }
-
-
 }
 
 @media only screen and (max-width: 900px) {
-  
   #logo {
     font-size: 19px;
   }
@@ -651,7 +643,7 @@ header {
   .menu-container {
     gap: 2rem;
   }
- 
+
   /* member section */
 
   #section-team-member {
@@ -664,7 +656,6 @@ header {
   .chef img {
     width: 80%;
   }
-
 }
 
 @media only screen and (max-width: 850px) {
@@ -698,7 +689,7 @@ header {
     font-size: 14px;
     padding: 8px;
   }
-  
+
   /* About Us */
   .container-about {
     flex-direction: column-reverse;
@@ -724,7 +715,6 @@ header {
     font-size: 1rem;
   }
 
- 
   /* member section */
 
   #section-team-member {
@@ -738,8 +728,6 @@ header {
     width: 80%;
   }
 
-  
-
   .footer-item p {
     font-size: 15px;
   }
@@ -749,13 +737,9 @@ header {
 }
 
 @media only screen and (max-width: 780px) {
-  
 }
 
 @media only screen and (max-width: 600px) {
-
-
-
   /* About Us Section */
   .container-about {
     flex-direction: column-reverse;
@@ -782,7 +766,7 @@ header {
   .btn2 {
     font-size: 0.9rem;
   }
- 
+
   /* Team Members */
   #section-team-member {
     grid-template-columns: 1fr;
@@ -797,9 +781,6 @@ header {
     width: 70%;
   }
 
-
-
-
   /* Footer */
   .footer-item p {
     font-size: 14px;
@@ -808,5 +789,4 @@ header {
   #copyright {
     font-size: 9px;
   }
-
 }

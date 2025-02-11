@@ -361,6 +361,10 @@ header {
 }
 
 @media only screen and (max-width: 600px) {
+  #register h2 {
+    font-size: 25px;
+  }
+
   /* Footer */
   .footer-item p {
     font-size: 14px;

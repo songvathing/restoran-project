@@ -76,7 +76,7 @@ header {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  background-image: url("/image/bg-hero.jpg");
+  background-image: url("../image/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -271,3 +271,103 @@ header {
 }
 
 /* ..................................... */
+
+.hamburger {
+  display: none;
+}
+/* responsive  */
+
+@media only screen and (max-width: 1460px) {
+  header {
+    padding: 10px 2%;
+  }
+
+  #navbar a {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  #navbar a {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  #navbar a {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  #logo {
+    font-size: 23px;
+  }
+  #logo img {
+    width: 37px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #logo {
+    font-size: 19px;
+  }
+  #logo img {
+    width: 29px;
+  }
+
+  #navbar a {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* Hamburger Menu */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger div {
+    color: #ff7f00;
+    font-size: 30px;
+  }
+
+  /* Navbar */
+  #navbar {
+    display: none;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 35, 59, 0.9);
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #navbar li {
+    margin: 25px;
+  }
+
+  #navbar li a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  .footer-item p {
+    font-size: 15px;
+  }
+  #copyright {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /* Footer */
+  .footer-item p {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 9px;
+  }
+}

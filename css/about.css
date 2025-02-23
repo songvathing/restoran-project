@@ -75,7 +75,7 @@ header {
   min-height: 50vh;
   display: flex;
   flex-direction: column;
-  background-image: url("/image/bg-hero.jpg");
+  background-image: url("../image/bg-hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -385,3 +385,408 @@ header {
 }
 
 /* ..................................... */
+
+.hamburger {
+  display: none;
+}
+/* responsive  */
+@media only screen and (max-width: 1550px) {
+  .container-about {
+    padding: 5px;
+    gap: 13px;
+  }
+  .image-grid .about-1 {
+    width: 280px;
+  }
+  .image-grid .about-4 {
+    width: 280px;
+  }
+  .image-grid .about-2 {
+    margin-top: 3.4rem;
+    width: 80%;
+  }
+  .image-grid .about-3 {
+    margin-left: 3.4rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content h1 img {
+    width: 23px;
+  }
+  .btn2 {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 1460px) {
+  header {
+    padding: 10px 2%;
+  }
+
+  #navbar a {
+    padding: 5px 10px;
+    font-size: 15px;
+  }
+
+  .container-about {
+    padding: 5px;
+    gap: 13px;
+  }
+  .image-grid .about-1 {
+    width: 250px;
+  }
+  .image-grid .about-4 {
+    width: 250px;
+  }
+  .image-grid .about-2 {
+    margin-top: 3.1rem;
+    width: 80%;
+  }
+  .image-grid .about-3 {
+    margin-left: 3.1rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content h1 img {
+    width: 23px;
+  }
+  .btn2 {
+    font-size: 13px;
+  }
+  /* member section */
+
+  #section-team-member {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .chef {
+    padding: 10px;
+  }
+  .chef img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1070px) {
+  #navbar a {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .container-about {
+    padding: 5px;
+    gap: 13px;
+  }
+  .image-grid .about-1 {
+    width: 250px;
+  }
+  .image-grid .about-4 {
+    width: 250px;
+  }
+  .image-grid .about-2 {
+    margin-top: 3.1rem;
+    width: 80%;
+  }
+  .image-grid .about-3 {
+    margin-left: 3.1rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 14px;
+  }
+  .content h1 {
+    font-size: 20px;
+  }
+  .content h1 img {
+    width: 23px;
+  }
+  .btn2 {
+    padding: 10px;
+    font-size: 14px;
+    font-size: 13px;
+  }
+  .stats {
+    flex-direction: column;
+  }
+  .stat h1 {
+    font-size: 25px;
+  }
+  .stat p {
+    font-size: 12px;
+  }
+
+  /* member section */
+
+  #section-team-member {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .chef {
+    padding: 10px;
+  }
+  .chef img {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 1010px) {
+  #navbar a {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+  #logo {
+    font-size: 23px;
+  }
+  #logo img {
+    width: 37px;
+  }
+
+  .container-about {
+    padding: 5px;
+    gap: 13px;
+  }
+  .image-grid .about-1 {
+    width: 250px;
+  }
+  .image-grid .about-4 {
+    width: 250px;
+  }
+  .image-grid .about-2 {
+    margin-top: 3.1rem;
+    width: 80%;
+  }
+  .image-grid .about-3 {
+    margin-left: 3.1rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .content h1 img {
+    width: 23px;
+  }
+  .btn2 {
+    font-size: 13px;
+  }
+
+  .stat h1 {
+    font-size: 30px;
+  }
+  .stat p {
+    font-size: 10px;
+  }
+
+  /* member section */
+
+  #section-team-member {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .chef {
+    padding: 10px;
+  }
+  .chef img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  #logo {
+    font-size: 19px;
+  }
+  #logo img {
+    width: 29px;
+  }
+
+  #navbar a {
+    padding: 3px 10px;
+    font-size: 12px;
+  }
+
+  /* About Us */
+  .container-about {
+    padding: 5px;
+    flex-direction: column-reverse;
+  }
+  .image-grid .about-1 {
+    width: 380px;
+  }
+  .image-grid .about-4 {
+    width: 380px;
+  }
+  .image-grid .about-2 {
+    margin-top: 4.6rem;
+    width: 80%;
+  }
+  .image-grid .about-3 {
+    margin-left: 4.6rem;
+    width: 80%;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .btn2 {
+    font-size: 1rem;
+  }
+  /* menu-container */
+  .menu-container {
+    gap: 2rem;
+  }
+
+  /* member section */
+
+  #section-team-member {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .chef {
+    padding: 10px;
+  }
+  .chef img {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  /* Hamburger Menu */
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger div {
+    color: #ff7f00;
+    font-size: 30px;
+  }
+
+  /* Navbar */
+  #navbar {
+    display: none;
+    position: absolute;
+    top: 58px;
+    left: 0;
+    right: 0;
+    background-color: rgba(10, 35, 59, 0.9);
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  #navbar li {
+    margin: 25px;
+  }
+
+  #navbar li a {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  /* About Us */
+  .container-about {
+    flex-direction: column-reverse;
+  }
+  .image-grid .about-1 {
+    width: 350px;
+  }
+  .image-grid .about-4 {
+    width: 350px;
+  }
+  .image-grid .about-2 {
+    margin-top: 5.4rem;
+    width: 75%;
+  }
+  .image-grid .about-3 {
+    margin-left: 5.4rem;
+    width: 75%;
+  }
+  .content p {
+    font-size: 1rem;
+  }
+  .btn2 {
+    font-size: 1rem;
+  }
+
+  /* member section */
+
+  #section-team-member {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  .chef {
+    padding: 10px;
+  }
+  .chef img {
+    width: 80%;
+  }
+
+  .footer-item p {
+    font-size: 15px;
+  }
+  #copyright {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+}
+
+@media only screen and (max-width: 600px) {
+  /* About Us Section */
+  .container-about {
+    flex-direction: column-reverse;
+  }
+
+  .image-grid .about-1,
+  .image-grid .about-4 {
+    width: 100%;
+  }
+
+  .image-grid .about-2,
+  .image-grid .about-3 {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+  .stats {
+    flex-direction: column;
+  }
+  .content p {
+    font-size: 0.9rem;
+  }
+
+  .btn2 {
+    font-size: 0.9rem;
+  }
+
+  /* Team Members */
+  #section-team-member {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .chef {
+    padding: 8px;
+  }
+
+  .chef img {
+    width: 70%;
+  }
+
+  /* Footer */
+  .footer-item p {
+    font-size: 14px;
+  }
+
+  #copyright {
+    font-size: 9px;
+  }
+}

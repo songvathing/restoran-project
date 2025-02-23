@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Restoran</title>
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -20,8 +23,11 @@
   <body>
     <header>
       <div id="logo">
-        <img src="/image/logo.png" alt="logo" />
+        <img src="image/logo.png" alt="logo" />
         <a href="#home"><h2>Restoran</h2></a>
+      </div>
+      <div class="hamburger">
+        <div><i class="fa-solid fa-burger"></i></div>
       </div>
 
       <ul id="navbar">
@@ -103,10 +109,14 @@
     <!-- About Us -->
     <section class="container-about">
       <div class="image-grid">
-        <img src="image/about-1.jpg" alt="Restaurant Interior" />
+        <img
+          src="image/about-1.jpg"
+          alt="Restaurant Interior"
+          class="about-1"
+        />
         <img src="image/about-2.jpg" alt="Dining Area" class="about-2" />
         <img src="image/about-3.jpg" alt="Delicious Food" class="about-3" />
-        <img src="image/about-4.jpg" alt="Grilled Platter" />
+        <img src="image/about-4.jpg" alt="Grilled Platter" class="about-4" />
       </div>
       <div class="content">
         <h2 class="title">About Us --</h2>
@@ -136,7 +146,7 @@
             </p>
           </div>
         </div>
-        <a href="#"><button class="btn2">READ MORE</button></a>
+        <a href="about.html"><button class="btn2">READ MORE</button></a>
       </div>
     </section>
     <!-- ........................................... -->
@@ -240,6 +250,7 @@
     <!-- Reservation section  -->
 
     <div class="reser-container">
+      
       <div class="image-section">
         <div class="play-button"></div>
       </div>

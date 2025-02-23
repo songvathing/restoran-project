@@ -2,9 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+    />
     <title>Register</title>
-    <link rel="stylesheet" href="/css/register.css" />
+    <link rel="stylesheet" href="css/register.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,17 +23,20 @@
 
   <body>
     <header>
-     <div id="logo">
-        <img src="/image/logo.png" alt="logo" />
+      <div id="logo">
+        <img src="image/logo.png" alt="logo" />
         <a href="#home"><h2>Restoran</h2></a>
+      </div>
+      <div class="hamburger">
+        <div><i class="fa-solid fa-burger"></i></div>
       </div>
       <ul id="navbar">
         <li><a href="index.html" class="home-active">HOME</a></li>
-        <li><a href="/about.html">ABOUT</a></li>
-        <li><a href="/service.html">SERVICE</a></li>
-        <li><a href="/contact.html">CONTACT</a></li>
-        <li><a href="/login.html">LOGIN</a></li>
-        <li><a href="/register.html">REGISTER</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="service.html">SERVICE</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="login.html">LOGIN</a></li>
+        <li><a href="register.html">REGISTER</a></li>
       </ul>
     </header>
     <!-- ....................................... -->
@@ -124,5 +130,7 @@
     <div id="copyright">
       <p>©2025Group2.Allrightreserved.</p>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>

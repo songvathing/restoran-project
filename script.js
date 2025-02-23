@@ -1,4 +1,3 @@
-
 $(".arrowup").on("click", function () {
   $("html, body").animate(
     {
@@ -16,4 +15,10 @@ $(window).on("scroll", function () {
   } else {
     $(".arrowup").hide();
   }
+});
+
+$(document).ready(function () {
+  $(".hamburger").click(function () {
+    $("#navbar").toggle(300);
+  });
 });
